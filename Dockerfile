@@ -1,4 +1,4 @@
-FROM civisanalytics/datascience-r:3.0.0
+FROM FROM civisanalytics/civis-services-shiny:1.3
 
 RUN apt-get update && apt-get install -y \
     git
